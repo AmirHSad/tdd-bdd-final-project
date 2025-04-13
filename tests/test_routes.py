@@ -31,6 +31,7 @@ from unittest import TestCase
 from service import app
 from service.common import status
 from service.models import db, init_db, Product
+from urllib.parse import quote_plus
 from tests.factories import ProductFactory
 
 # Disable all but critical errors during normal test run
